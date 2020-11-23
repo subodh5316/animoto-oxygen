@@ -1,0 +1,70 @@
+.top-div{
+    display: flex;column-gap: 2%;
+    height: 80px;
+    border: 2px red solid;justify-content: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;font-size: 16px;line-height: 16px;
+    color: #181c47;
+}
+
+.flex-div{
+    flex-grow: 2;
+}
+
+.top-div > div{
+    background-color: gold;
+}
+
+.easily-make{
+    height: 700px;
+    border: steelblue 2px solid;
+}
+
+.grid-div{
+    display: grid;grid-gap: 100px;
+    grid-template-areas:"a b";margin-left: 90px;margin-top: 115px;margin-right: 90px;
+}
+
+#a{
+    grid-area: a;
+    height: 500px;color: white;
+    
+}
+
+}
+#b{
+    grid-area: b;
+    
+    background-color: teal;
+}
+
+.do-it-urslf{
+    font-family: 'Roboto', sans-serif;font-weight: bold;
+    color: black;margin-bottom: -30px;
+}
+
+#easily{
+    font-weight: 700;line-height: 81px;font-size: 71px;color: black;
+}
+#easily + p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;line-height:30px ;color: #181c47;font-size: 20px;margin-top: -20px;
+}
+
+#get-started-free{
+    height: 50px;width: 250px;background-color: #23408c;font-size: 16px;
+    font-weight: 700;font-family: Arial, Helvetica, sans-serif;
+    border-radius: 40px;color: #ffffff;line-height: 16px;
+}
+
+#vid-back{
+    width: 550px;height: 315px;margin-top: 100px;
+    background-color: blanchedalmond;position: relative;
+}
+
+#vid{
+    position: absolute;width: 550px;height:315px;background-color: gold;
+
+    top: 250px;right: 150px;z-index: 1;
+}
