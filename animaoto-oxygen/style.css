@@ -1,0 +1,42 @@
+*{
+    text-align: center;
+}
+h1{
+    font-size:40px;
+}
+p{
+    font-size: 20px;
+}
+.mid_section{
+    width: 95%;
+    height: 700px;
+    background-color: rgba(224, 224, 250, 0.979);
+    margin: auto;
+    padding: 20px;
+}
+.text{
+    display: flex;
+}
+.text > div {
+    flex-grow: 1;
+}
+.videos{
+    display: flex;
+    flex-grow: 1;
+    margin: 20px;
+
+}
+.videos > img{
+    width: 30%;
+    height: 200px;
+    margin: 20px;
+}
+.video_btn{
+    width: 200px;
+    height: 50px;
+    font-size:20px;
+    margin: auto;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 255, 0.836);
+    color: white;
+}
