@@ -4,7 +4,7 @@
 
 
 
-pointer_on_create.addEventListener('mouseover',create_div)
+//pointer_on_create.addEventListener('mouseover',create_div)
 
 
 
@@ -16,7 +16,9 @@ function learn_div(){
     var div =document.createElement('div')
     div.setAttribute('class','learn_div')
     parent.appendChild(div)
-
+    var p = document.createElement('p')
+    div.appendChild(p)
+    p.textContent='asdaf'
 
     var arr = ['Promo Video','Holiday video','Business','E-commerce','Slideshow video','Birthday video','real estate','education','social media','Graduation','photography','non-profit']
     for(var i=0; i<12;i++){
@@ -55,7 +57,20 @@ function on_create(){
     var div =document.createElement('div')
     div.setAttribute('class','learn_div')
     parent.appendChild(div)
-
+    var p1 = document.createElement('p')
+    div.appendChild(p1)
+    p1.textContent='asdaf'
+    p1.style.float='left'
+    var p2 =document.createElement('p')
+    p2.textContent =' aoplkj'
+    div.appendChild(p2) 
+    
+    var p3 =document.createElement('p')
+    div.appendChild(p3)
+    p3.textContent ='tttttt'
+    p3.style.float='left'
+    //p2.style.float ='left'
+    
 
 var arr = ['Promo Video','Holiday video','Business','E-commerce','Slideshow video','Birthday video','real estate','education','social media','Graduation','photography','non-profit']
     for(var i=0; i<12;i++){
