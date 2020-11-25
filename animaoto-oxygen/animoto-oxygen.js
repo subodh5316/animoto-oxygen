@@ -87,12 +87,25 @@ function out_create(){
 
 }
 // subodh_dev
-function myFunction() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
+// function myFunction() {
+//     var x = document.getElementById("myDIV");
+//     if (x.style.display !== "none") {
+//         x.style.display = "none";
+//     } else {
+//         x.style.display = "block";
+      
+//     }
+//   }
 
+function ShowHideDiv(){
+    var dvPassport=document.getElementById("dvPassport")
+
+    dvPassport.style.display="block";
+}
+
+document.getElementById("myBtn").onclick = function() {myFunction()};
+
+function myFunction() {
+    console.log('hi')
+  document.getElementById("myDropdown").classList.toggle("show");
+}
