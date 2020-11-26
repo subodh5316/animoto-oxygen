@@ -634,7 +634,7 @@ section p{
 
 
 /* aijaz */
-.top-div{
+/* .top-div{
     display: flex;
     column-gap: 2%;
     height: 80px;
@@ -887,5 +887,10 @@ section p{
         grid-area: b;
         justify-self: center;
         margin-right: 3%;
-    }
+    } */
 
+@media only screen and (max-width:600px){
+    .box2{
+        flex-direction: row;
+    }
+}
