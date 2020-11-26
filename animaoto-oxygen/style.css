@@ -1,4 +1,5 @@
 
+/*author: Aejaz Ahmed*/
 
 .site_nav{
     width: 100%;
@@ -499,3 +500,128 @@ color: #23408c;
   .column a:hover {
     background-color: #ddd;
   }
+
+    /*author: Pranit Jogwe old mid-section home page*/
+
+*{
+    text-align: center;
+}
+h1, #text_1, .heading_1{
+    font-size:36.4px;
+    font-family: 'Playfair Display', serif;
+    color: #181C47;
+}
+p, #text_2{
+    font-size: 20px;
+    color: #181C47;
+}
+.mid_section{
+    width: 80%;
+    height: 700px;
+    background-color: #f3f3f9;
+    margin: auto;
+    padding:2% 7% 0% 7%;
+}
+
+.text{
+    display: flex;
+}
+.text > div {
+    flex-grow: 1;
+    color: #23408C;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    font-size: 16px;
+}
+.videos, .video_describe_text {
+    display: flex;
+    flex-grow: 1;
+    margin: 20px;
+
+}
+.videos > video{
+    width: 30%;
+    height: 200px;
+    margin: 20px;
+}
+.video_describe_text > div{
+    margin:0px 20px;
+    font-size:16px;
+    color: #181C47;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    width: 30%;
+    text-align: left;
+}
+.video_btn{
+    width: 200px;
+    height: 20px;
+    font-size:16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 100px;
+    background-color: #23408C;
+    color: white;
+    padding:16px
+}
+.mid_section2{
+    width:70%;
+    margin-top:80px ;
+    height: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+.mid_interior{
+    width: 80vw;
+    height: 70%;
+    margin: auto;
+    display: flex;
+    flex-grow: 1;
+}
+.left_box{
+    padding-top:30px ;
+    width: 40%;
+    height: 100%;
+    text-align: left;
+    margin-top: 60px; 
+}
+.heading_1{
+    font-weight: 900;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+}
+#text_1{
+    font-weight: 900;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+}
+#text_2{
+    margin:20px 0px 20px 0px;
+    text-align: left;
+}
+
+.mid_interior > img{
+    width: 50%;
+    height: 90%;   
+}
+#click_start_btn{
+    color: #23408C;
+    background-color: white;
+    text-align: center;
+    font-weight:800;
+    padding:5px;
+    width: 250px;
+    height: 50px;
+    border: 2px solid #23408C;
+    border-radius: 125px;
+    margin-top: 20px;
+}
+.mid_section2 > h1{
+    text-align: center;
+}
+
+
