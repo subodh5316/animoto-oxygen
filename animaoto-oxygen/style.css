@@ -184,28 +184,21 @@ section{
 .box2{
     display: flex;
     flex-direction: row;
-    width:100%;
+    
     background-color: rgb(226, 222, 222);
 }
 .box21{
     width:20%;
     /* text-align: center; */
-    margin-left: 80px;
+    margin-left: 5%;
     text-align: start;
 }
-.box22{
-    display: flex;
-    flex-direction: row;
-    width:330px;
-    
-    /* border: 1px solid green; */
-    /* text-align: center; */
-    margin-left: 20px;
-}
+
 #box221{
-    width: 64px;
-    height: 80px;
-    margin-top: 30px;
+    width: 64%;
+    height: 8%;
+    margin-top: 30%;
+    margin-left: -2%;
 }
 section h4{
     color:#969696;
@@ -218,16 +211,36 @@ section h3{
     flex-direction: column;
 
 }
+.box22{
+    display: flex;
+    flex-direction: row;
+    width:30%;
+    padding: 2%;
+    
+    /* border: 1px solid green; */
+    /* text-align: center; */
+    margin-left: -10%;
+    margin-top: -10%;
+}
 .box4{
-    width: 100px;
-    margin-left: 50px;
+    width: 40%;
+    margin-left: -1%;
+    margin-top: 10%;
+}
+
+.box4 img{
+    display: flex;
+    height: 60px;
+    justify-content: start;
+    /* margin-left: -30%; */
+     margin-top:-10px;
 }
 .box3{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:100%;
+   
     color: blanchedalmond;
     background-color: black;
     padding-top:80px;
@@ -240,7 +253,7 @@ section h3{
     flex-direction: column;
     justify-content: center;
     height: 70px;
-    width: 70px;
+    width: 5%;
 }
 .box>h2{
     margin-top: -20px;
@@ -260,12 +273,7 @@ footer>img{
   /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
 }
 .dropdown:hover .dropdown-content {display: block;}
-.box4 img{
-    display: flex;
-    width: 100%;
-    justify-content: start;
-    margin-left: -40px;
-}
+
 .section-container-content{
     background-color: darkslateblue;
     color: white;
@@ -285,6 +293,7 @@ footer>img{
     text-align: center;
     background-color: lightblue;
     margin-top: 20px;
+    display: none;
 }
 .box_mydiv{
     display: flex;
@@ -373,9 +382,9 @@ padding-top: 100px;
       margin-left: 80%;
       margin-top: 10%;
        height: 100px; */
-     background-size: 10%;
+     background-size: 20%;
      background-repeat: no-repeat;
-     margin-left: 70%;
+    
 
       background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMzUuMzggMTMyLjgxIj48cGF0aCBkPSJNMjEgMTcuMjRjOS04LjEyIDIxLjQ3LTExLjcyIDMyLjUtMTQuMUM2NC44Ny42OSA3OC4wNS0xLjc3IDg5LjEzIDEuNzdjMTAuNzUgMy40NCAyMC41MyAxMi40OCAyOC42NSAyMS40M3M5LjUzIDIxIDExLjkxIDMyYzIuNDUgMTEuMzcgOC4xIDIzLjY5IDQuNTYgMzQuNzdhNzMuMjcgNzMuMjcgMCAwIDEtMTkuNjIgMzAuMzljLTguOTUgOC4xMi0yMi4zOCA4LjM0LTMzLjQxIDEwLjcyLTExLjM3IDIuNDgtMjIuMSAyLjQyLTMzLjIyLTEuMDgtMTAuNzQtMy40My0yMi44OS02LjM2LTMxLTE1LjMxUzcuMTIgOTMuMzMgNC43NCA4Mi4zYy0yLjQ1LTExLjM3LTctMjMuODQtMy40My0zNC45MkE3Mi40NSA3Mi40NSAwIDAgMSAyMSAxNy4yNHoiIGZpbGw9IiMxYmNkY2YiLz48L3N2Zz4=);
   }
@@ -453,7 +462,90 @@ padding-top: 100px;
   .text-align{
       text-align: center;
   }
+  /* feature */
+  .feature-container{
+      display: flex;
+      flex-direction: column;
+      background-color: darksalmon;
+      text-align: center;
+  }
+  .feature-template-view-btn{
+      margin-bottom: 3%;
+      
+  }
+  .feature-content3-wavy{
+     margin-right: 30%;
+     width: 27%;
+     height: 8px;
 
+  }
+.stock-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid green;
+
+}
+.stock-content-col{
+    display: flex;
+    flex-direction: column;
+}
+.stock-content-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.stock-content1{
+    display: flex;
+    flex: column;
+    width: 20%;
+    height: 200px;
+    border: 1px solid red;
+    padding-left: 20px;
+}
+.stock-content2{
+    display: flex;
+    flex: row;
+    width: 20%;
+    height: 200px;
+    border: 1px solid red;
+
+}
+.stock-content3{
+    width: 20%;
+    height: 200px;
+    border: 1px solid red;
+
+}
+.stock-content4{
+    width: 20%;
+    height: 200px;
+    border: 1px solid red;
+
+}
+.stock-content11{
+    width: 40%;
+    height: 50px;
+    border: 1px solid black;
+
+}
+.stock-content12{
+    width: 20%;
+    height: 120px;
+    border: 1px solid red;
+
+}
+.stock-content13{
+    width: 20%;
+    height: 120px;
+    border: 1px solid red;
+
+}
+.stock-content14{
+    width: 20%;
+    height: 120px;
+    border: 1px solid red;
+
+}
 /* aijaz */
 .top-div{
     display: flex;
