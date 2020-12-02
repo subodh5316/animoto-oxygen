@@ -478,7 +478,7 @@ color: #23408c;
 
 
   
-.column {
+.col {
     float: left;
     width: 30%;
     padding: 10px;
@@ -486,7 +486,7 @@ color: #23408c;
     height: 250px; z-index: 10;
   }
   
-  .column a {
+  .col a {
     float: none;
     color: #181c47;
     
@@ -501,7 +501,7 @@ color: #23408c;
     
   }
 
-  .column h3{
+  .col h3{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
     font-weight: 700;
@@ -509,7 +509,7 @@ color: #23408c;
     font-size: 20px;
   }
   
-  .column a:hover {
+  .col a:hover {
     cursor: pointer;
   }
 
