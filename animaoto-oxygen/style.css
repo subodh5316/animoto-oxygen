@@ -1,8 +1,9 @@
 
 /*author: Aejaz Ahmed*/
 
-
-
+video{
+    object-fit: contain;
+}
 
 
 .site_nav{
@@ -509,7 +510,7 @@ color: #23408c;
   }
   
   .column a:hover {
-    background-color: #ddd;
+    cursor: pointer;
   }
 
     /*author: Pranit Jogwe old mid-section home page*/
