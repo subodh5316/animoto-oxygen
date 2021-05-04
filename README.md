@@ -1,5 +1,5 @@
 -----------------------
-# Clone of Animoto.com
+# Animoto Clone
 -----------------------
 
  
